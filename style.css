@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+}
+main {
+  margin: 10% 15% 10% 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.collective {
+  padding: 10% 5% 10% 5%;
+  position: relative;
+  height: 70vh;
+}
+.sedan-div {
+  background-color: hsl(31, 77%, 52%);
+}
+.suv-div {
+  background-color: hsl(184, 100%, 22%);
+}
+.lxury-div {
+  background-color: hsl(179, 100%, 13%);
+}
+button {
+  position: absolute;
+  bottom: 20px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border: 0.5px white solid;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn1 {
+  color: hsl(31, 77%, 52%);
+}
+.btn1:hover {
+  color: #ffffff;
+  background-color: transparent;
+  border: 0.5px #ffffff solid;
+}
+.btn2 {
+  color: hsl(184, 100%, 22%);
+}
+.btn2:hover {
+  color: #ffffff;
+  background-color: transparent;
+  border: 0.5px #ffffff solid;
+}
+.btn3 {
+  color: hsl(179, 100%, 13%);
+}
+.btn3:hover {
+  color: #ffffff;
+  background-color: transparent;
+  border: 0.5px #ffffff solid;
+}
