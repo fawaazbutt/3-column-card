@@ -12,14 +12,20 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media (min-width: 300px) {
-  main 
-   {display: grid;
+@media (min-width: 100px) and (max-width: 450px) {
+  main {
+    display: grid;
     grid-template-columns: 1fr;
   }
 }
+@media (min-width: 450px) and (max-width: 850px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .collective {
-  /*padding: 10% 5% 10% 5%;*/
+  padding: 10% 5% 10% 5%;
   position: relative;
   height: 70vh;
 }
