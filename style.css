@@ -2,13 +2,24 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.main-out {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 main {
-  margin: 10% 15% 10% 15%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+@media (min-width: 300px) {
+  main 
+   {display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 .collective {
-  padding: 10% 5% 10% 5%;
+  /*padding: 10% 5% 10% 5%;*/
   position: relative;
   height: 70vh;
 }
